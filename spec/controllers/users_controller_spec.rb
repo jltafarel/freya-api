@@ -2,8 +2,8 @@ require 'rails_helper'
 
 describe UsersController, type: :controller do
 
-  before :each do
-    @user = FactoryGirl.create :another_user
+  before do
+    @user = FactoryGirl.build :another_user
   end
 
   describe 'POST /users' do

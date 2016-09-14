@@ -1,9 +1,12 @@
 require 'rails_helper'
 
 describe User, type: :model do
-  user = FactoryGirl.create(:user)
+
+  before do
+    @user = FactoryGirl.create(:user)
+  end
   it 'should be created' do
-    expect(user).to be_valid
+    expect(@user).to be_valid
   end
   it {should validate_presence_of(:name)}
   it {should validate_presence_of(:email)}
