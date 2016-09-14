@@ -8,4 +8,4 @@ cache: bundler
 services:
   - postgresql
 addons:
-  postgresql: "9.4"c
+  postgresql: "9.4"
