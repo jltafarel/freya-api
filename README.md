@@ -1,24 +1,7 @@
-# README
+[![Build Status](https://travis-ci.org/jltafarel/freya-api.svg?branch=dev)](https://travis-ci.org/jltafarel/freya-api)
+[![Coverage Status](https://coveralls.io/repos/github/jltafarel/freya-api/badge.svg?branch=dev)](https://coveralls.io/github/jltafarel/freya-api?branch=dev)
+#Freya API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the API for Freya application.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Freya is an application to diabetics control her glycemia levels.
