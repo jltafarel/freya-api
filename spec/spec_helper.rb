@@ -1,5 +1,7 @@
 require 'simplecov'
 SimpleCov.start
+require 'coveralls'
+Coveralls.wear!
 require 'support/factory_girl'
 require 'capybara/rspec'
 RSpec.configure do |config|

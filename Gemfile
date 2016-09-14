@@ -16,6 +16,7 @@ group :development, :test do
   gem 'simplecov', require: false
   gem 'capybara'
   gem 'guard-rspec', require: false
+  gem 'coveralls', require: false
 end
 
 group :development do
