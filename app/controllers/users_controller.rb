@@ -39,6 +39,11 @@ class UsersController < ApplicationController
     @user.destroy
   end
 
+  #GET /user/me
+  def me
+    render json: current_user
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user

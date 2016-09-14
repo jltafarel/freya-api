@@ -14,12 +14,9 @@ describe UsersController, type: :controller do
   end
 
   describe 'GET /users/me'  do
-    it 'should not return your user if your not logged' do
+    it 'should not return a user if your not logged' do
       get :me
       is_expected.to respond_with(:unauthorized)
-    end
-    it 'should return your user if your logged' do
-
     end
   end
 end
